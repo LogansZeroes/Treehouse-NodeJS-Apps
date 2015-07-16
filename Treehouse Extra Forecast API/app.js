@@ -1,8 +1,6 @@
 var forecast = require("./forecast");
 var coordinates = process.argv.slice(2);
 
-// forecast.get(coordinates[0],coordinates[1]);
-
 
 function isOdd(num){
   return coordinates.indexOf(num) % 2 === 1;  
